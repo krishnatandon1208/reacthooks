@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Greetings from './Greetings';
 
 function App() {
 	const [ counter, setCounter ] = useState(0);
@@ -20,6 +21,7 @@ function App() {
 				<button onClick={increaseCounterHandler}>Increase</button>
 				<button onClick={decreaseCounterHandler}>Decrease</button>
 			</div>
+			<Greetings />
 		</div>
 	);
 }
