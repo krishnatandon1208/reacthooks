@@ -21,7 +21,7 @@ function App() {
 				<button onClick={increaseCounterHandler}>Increase</button>
 				<button onClick={decreaseCounterHandler}>Decrease</button>
 			</div>
-			<Greetings />
+			<Greetings initialName="Krishna" />
 		</div>
 	);
 }
