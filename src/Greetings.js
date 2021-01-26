@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
 export default function Greetings({ initialName }) {
-	//const name = '';
-
 	const [ greetings, setGreetings ] = useState(initialName);
 
 	function handleGreetings(event) {
